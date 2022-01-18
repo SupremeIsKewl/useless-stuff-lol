@@ -1,0 +1,1056 @@
+-- KZS HUB V1.3
+
+local ScreenGui = Instance.new("ScreenGui")
+local open = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local sideframe = Instance.new("Frame")
+local scriptbutton = Instance.new("TextButton")
+local send = Instance.new("ImageButton")
+local creditsbutton = Instance.new("TextButton")
+local send_2 = Instance.new("ImageButton")
+local settingbutton = Instance.new("TextButton")
+local send_3 = Instance.new("ImageButton")
+local homebutton = Instance.new("TextButton")
+local home = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+local scriptframe = Instance.new("Frame")
+local bloxfruit = Instance.new("TextButton")
+local kinglegacy = Instance.new("TextButton")
+local petsimx = Instance.new("TextButton")
+local truepiece = Instance.new("TextButton")
+local buildaboat = Instance.new("TextButton")
+local fetroll = Instance.new("TextButton")
+local kat = Instance.new("TextButton")
+local adoptme = Instance.new("TextButton")
+local arsenal = Instance.new("TextButton")
+local brookhaven = Instance.new("TextButton")
+local prisonlife = Instance.new("TextButton")
+local jailbreak = Instance.new("TextButton")
+local animefighter = Instance.new("TextButton")
+local ninjalegends = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local infinite = Instance.new("TextButton")
+local gym = Instance.new("TextButton")
+local ROYAL = Instance.new("TextButton")
+local zombier = Instance.new("TextButton")
+local creditsframe = Instance.new("Frame")
+local topkek = Instance.new("TextButton")
+local gabx = Instance.new("TextButton")
+local bozo = Instance.new("TextButton")
+local test1 = Instance.new("TextButton")
+local citrus = Instance.new("TextButton")
+local domain = Instance.new("TextButton")
+local ez = Instance.new("TextButton")
+local lucky = Instance.new("TextButton")
+local sight = Instance.new("TextButton")
+local garfield = Instance.new("TextButton")
+local psy = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local settingframe = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local topbar = Instance.new("Frame")
+local homeframe = Instance.new("Frame")
+local PlayerImage = Instance.new("ImageLabel")
+local PlayerName = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(-0.000543653674, 0, 0.371916533, 0)
+open.Size = UDim2.new(0, 78, 0, 41)
+open.Style = Enum.ButtonStyle.RobloxButtonDefault
+open.Font = Enum.Font.SciFi
+open.Text = "OPEN"
+open.TextColor3 = Color3.fromRGB(0, 255, 0)
+open.TextSize = 20.000
+open.TextWrapped = true
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.160165191, 0, 0.159852698, 0)
+Frame.Size = UDim2.new(0, 568, 0, 343)
+Frame.Visible = false
+
+sideframe.Name = "sideframe"
+sideframe.Parent = Frame
+sideframe.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+sideframe.Size = UDim2.new(0, 131, 0, 343)
+sideframe.SizeConstraint = Enum.SizeConstraint.RelativeXX
+sideframe.Style = Enum.FrameStyle.RobloxRound
+
+scriptbutton.Name = "scriptbutton"
+scriptbutton.Parent = sideframe
+scriptbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptbutton.BackgroundTransparency = 1.000
+scriptbutton.Position = UDim2.new(0.026776528, 0, 0.216060638, 0)
+scriptbutton.Size = UDim2.new(0, 107, 0, 47)
+scriptbutton.Font = Enum.Font.Arial
+scriptbutton.Text = "SCRIPTS"
+scriptbutton.TextColor3 = Color3.fromRGB(255, 0, 0)
+scriptbutton.TextSize = 15.000
+
+send.Name = "send"
+send.Parent = scriptbutton
+send.BackgroundTransparency = 1.000
+send.LayoutOrder = 4
+send.Position = UDim2.new(-0.0424094498, 0, 0.26441437, 0)
+send.Size = UDim2.new(0, 23, 0, 22)
+send.ZIndex = 2
+send.Image = "rbxassetid://3926307971"
+send.ImageRectOffset = Vector2.new(44, 284)
+send.ImageRectSize = Vector2.new(36, 36)
+
+creditsbutton.Name = "creditsbutton"
+creditsbutton.Parent = sideframe
+creditsbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditsbutton.BackgroundTransparency = 1.000
+creditsbutton.Position = UDim2.new(0.0283160768, 0, 0.357570618, 0)
+creditsbutton.Size = UDim2.new(0, 107, 0, 47)
+creditsbutton.Font = Enum.Font.Arial
+creditsbutton.Text = "HUBS"
+creditsbutton.TextColor3 = Color3.fromRGB(255, 0, 0)
+creditsbutton.TextSize = 15.000
+
+send_2.Name = "send"
+send_2.Parent = creditsbutton
+send_2.BackgroundTransparency = 1.000
+send_2.LayoutOrder = 4
+send_2.Position = UDim2.new(-0.0517552458, 0, 0.26441437, 0)
+send_2.Size = UDim2.new(0, 23, 0, 22)
+send_2.ZIndex = 2
+send_2.Image = "rbxassetid://3926307971"
+send_2.ImageRectOffset = Vector2.new(44, 284)
+send_2.ImageRectSize = Vector2.new(36, 36)
+
+settingbutton.Name = "settingbutton"
+settingbutton.Parent = sideframe
+settingbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settingbutton.BackgroundTransparency = 1.000
+settingbutton.Position = UDim2.new(0.0226323754, 0, 0.497821718, 0)
+settingbutton.Size = UDim2.new(0, 107, 0, 47)
+settingbutton.Font = Enum.Font.Arial
+settingbutton.Text = "    FE SCRIPT"
+settingbutton.TextColor3 = Color3.fromRGB(255, 0, 0)
+settingbutton.TextSize = 15.000
+
+send_3.Name = "send"
+send_3.Parent = settingbutton
+send_3.BackgroundTransparency = 1.000
+send_3.LayoutOrder = 4
+send_3.Position = UDim2.new(-0.0424094498, 0, 0.26441437, 0)
+send_3.Size = UDim2.new(0, 23, 0, 22)
+send_3.ZIndex = 2
+send_3.Image = "rbxassetid://3926307971"
+send_3.ImageRectOffset = Vector2.new(44, 284)
+send_3.ImageRectSize = Vector2.new(36, 36)
+
+homebutton.Name = "homebutton"
+homebutton.Parent = sideframe
+homebutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homebutton.BackgroundTransparency = 1.000
+homebutton.Position = UDim2.new(0.0290858503, 0, 0.0724429637, 0)
+homebutton.Size = UDim2.new(0, 107, 0, 47)
+homebutton.Font = Enum.Font.Arial
+homebutton.Text = "HOME"
+homebutton.TextColor3 = Color3.fromRGB(255, 0, 0)
+homebutton.TextSize = 15.000
+
+home.Name = "home"
+home.Parent = homebutton
+home.BackgroundTransparency = 1.000
+home.Position = UDim2.new(-0.0794392526, 0, 0.223404258, 0)
+home.Size = UDim2.new(0, 25, 0, 24)
+home.ZIndex = 2
+home.Image = "rbxassetid://3926305904"
+home.ImageRectOffset = Vector2.new(964, 204)
+home.ImageRectSize = Vector2.new(36, 36)
+
+TextLabel.Parent = sideframe
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.186546117, 0, -0.0184996556, 0)
+TextLabel.Size = UDim2.new(0, 156, 0, 32)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "KZS HUB V1.3"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+
+scriptframe.Name = "scriptframe"
+scriptframe.Parent = Frame
+scriptframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptframe.BackgroundTransparency = 1.000
+scriptframe.Position = UDim2.new(0.230603427, 0, 0.120567419, 0)
+scriptframe.Size = UDim2.new(0, 399, 0, 282)
+scriptframe.Visible = false
+
+bloxfruit.Name = "bloxfruit"
+bloxfruit.Parent = scriptframe
+bloxfruit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruit.BorderColor3 = Color3.fromRGB(255, 0, 0)
+bloxfruit.Position = UDim2.new(0.0217000488, 0, 0.0337221697, 0)
+bloxfruit.Size = UDim2.new(0, 78, 0, 41)
+bloxfruit.Font = Enum.Font.Arial
+bloxfruit.Text = "BLOX FRUIT"
+bloxfruit.TextColor3 = Color3.fromRGB(255, 0, 0)
+bloxfruit.TextSize = 10.000
+
+kinglegacy.Name = "king legacy"
+kinglegacy.Parent = scriptframe
+kinglegacy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kinglegacy.BorderColor3 = Color3.fromRGB(255, 0, 0)
+kinglegacy.Position = UDim2.new(0.284612894, 0, 0.0337221697, 0)
+kinglegacy.Size = UDim2.new(0, 78, 0, 41)
+kinglegacy.Font = Enum.Font.Arial
+kinglegacy.Text = "KING LEGACY"
+kinglegacy.TextColor3 = Color3.fromRGB(255, 0, 0)
+kinglegacy.TextSize = 10.000
+
+petsimx.Name = "petsimx"
+petsimx.Parent = scriptframe
+petsimx.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+petsimx.BorderColor3 = Color3.fromRGB(255, 0, 0)
+petsimx.Position = UDim2.new(0.562666059, 0, 0.0326012336, 0)
+petsimx.Size = UDim2.new(0, 78, 0, 41)
+petsimx.Font = Enum.Font.Arial
+petsimx.Text = "PETSIMX"
+petsimx.TextColor3 = Color3.fromRGB(255, 0, 0)
+petsimx.TextSize = 10.000
+
+truepiece.Name = "true piece"
+truepiece.Parent = scriptframe
+truepiece.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+truepiece.BorderColor3 = Color3.fromRGB(255, 0, 0)
+truepiece.Position = UDim2.new(0.0217000488, 0, 0.249147832, 0)
+truepiece.Size = UDim2.new(0, 78, 0, 41)
+truepiece.Font = Enum.Font.Arial
+truepiece.Text = "TRUE PIECE"
+truepiece.TextColor3 = Color3.fromRGB(255, 0, 0)
+truepiece.TextSize = 10.000
+
+buildaboat.Name = "buildaboat"
+buildaboat.Parent = scriptframe
+buildaboat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buildaboat.BorderColor3 = Color3.fromRGB(255, 0, 0)
+buildaboat.Position = UDim2.new(0.284885675, 0, 0.238509536, 0)
+buildaboat.Size = UDim2.new(0, 78, 0, 41)
+buildaboat.Font = Enum.Font.Arial
+buildaboat.Text = "BUILD A BOAT"
+buildaboat.TextColor3 = Color3.fromRGB(255, 0, 0)
+buildaboat.TextSize = 10.000
+
+fetroll.Name = "fe troll"
+fetroll.Parent = scriptframe
+fetroll.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fetroll.BorderColor3 = Color3.fromRGB(255, 0, 0)
+fetroll.Position = UDim2.new(0.0217000488, 0, 0.472322941, 0)
+fetroll.Size = UDim2.new(0, 78, 0, 41)
+fetroll.Font = Enum.Font.Arial
+fetroll.Text = "FE TROLL"
+fetroll.TextColor3 = Color3.fromRGB(255, 0, 0)
+fetroll.TextSize = 10.000
+
+kat.Name = "kat"
+kat.Parent = scriptframe
+kat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kat.BorderColor3 = Color3.fromRGB(255, 0, 0)
+kat.Position = UDim2.new(0.284475356, 0, 0.468776852, 0)
+kat.Size = UDim2.new(0, 78, 0, 41)
+kat.Font = Enum.Font.Arial
+kat.Text = "KAT"
+kat.TextColor3 = Color3.fromRGB(255, 0, 0)
+kat.TextSize = 15.000
+
+adoptme.Name = "adopt me"
+adoptme.Parent = scriptframe
+adoptme.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+adoptme.BorderColor3 = Color3.fromRGB(255, 0, 0)
+adoptme.Position = UDim2.new(0.56009233, 0, 0.675566137, 0)
+adoptme.Size = UDim2.new(0, 78, 0, 41)
+adoptme.Font = Enum.Font.Arial
+adoptme.Text = "ADOPT ME"
+adoptme.TextColor3 = Color3.fromRGB(255, 0, 0)
+adoptme.TextSize = 10.000
+
+arsenal.Name = "arsenal"
+arsenal.Parent = scriptframe
+arsenal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+arsenal.BorderColor3 = Color3.fromRGB(255, 0, 0)
+arsenal.Position = UDim2.new(0.830769002, 0, 0.249147832, 0)
+arsenal.Size = UDim2.new(0, 78, 0, 41)
+arsenal.ZIndex = 3
+arsenal.Font = Enum.Font.Arial
+arsenal.Text = "ARSENAL"
+arsenal.TextColor3 = Color3.fromRGB(255, 0, 0)
+arsenal.TextSize = 15.000
+
+brookhaven.Name = "brookhaven"
+brookhaven.Parent = scriptframe
+brookhaven.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brookhaven.BorderColor3 = Color3.fromRGB(255, 0, 0)
+brookhaven.Position = UDim2.new(0.562622309, 0, 0.469442725, 0)
+brookhaven.Size = UDim2.new(0, 78, 0, 41)
+brookhaven.Font = Enum.Font.Arial
+brookhaven.Text = "BROOKHAVEN"
+brookhaven.TextColor3 = Color3.fromRGB(255, 0, 0)
+brookhaven.TextSize = 9.000
+
+prisonlife.Name = "prison life"
+prisonlife.Parent = scriptframe
+prisonlife.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisonlife.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisonlife.Position = UDim2.new(0.830769002, 0, 0.469442725, 0)
+prisonlife.Size = UDim2.new(0, 78, 0, 41)
+prisonlife.Font = Enum.Font.Arial
+prisonlife.Text = "PRISON LIFE"
+prisonlife.TextColor3 = Color3.fromRGB(255, 0, 0)
+prisonlife.TextSize = 10.000
+
+jailbreak.Name = "jailbreak"
+jailbreak.Parent = scriptframe
+jailbreak.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+jailbreak.BorderColor3 = Color3.fromRGB(255, 0, 0)
+jailbreak.Position = UDim2.new(0.284475356, 0, 0.680921793, 0)
+jailbreak.Size = UDim2.new(0, 78, 0, 41)
+jailbreak.Font = Enum.Font.Arial
+jailbreak.Text = "JAILBREAK"
+jailbreak.TextColor3 = Color3.fromRGB(255, 0, 0)
+jailbreak.TextSize = 10.000
+
+animefighter.Name = "animefighter"
+animefighter.Parent = scriptframe
+animefighter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+animefighter.BorderColor3 = Color3.fromRGB(255, 0, 0)
+animefighter.Position = UDim2.new(0.561459363, 0, 0.249147832, 0)
+animefighter.Size = UDim2.new(0, 78, 0, 41)
+animefighter.Font = Enum.Font.Arial
+animefighter.Text = "ANIMEFIGHTER"
+animefighter.TextColor3 = Color3.fromRGB(255, 0, 0)
+animefighter.TextSize = 10.000
+
+ninjalegends.Name = "ninja legends"
+ninjalegends.Parent = scriptframe
+ninjalegends.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ninjalegends.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ninjalegends.Position = UDim2.new(0.0196637716, 0, 0.680921793, 0)
+ninjalegends.Size = UDim2.new(0, 78, 0, 41)
+ninjalegends.Font = Enum.Font.Arial
+ninjalegends.Text = "NINJALEGENDS"
+ninjalegends.TextColor3 = Color3.fromRGB(255, 0, 0)
+ninjalegends.TextSize = 9.000
+
+TextLabel_2.Parent = scriptframe
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.37745586, 0, -0.149945989, 0)
+TextLabel_2.Size = UDim2.new(0, 156, 0, 32)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "SCRIPTS"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+infinite.Name = "infinite"
+infinite.Parent = scriptframe
+infinite.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infinite.BorderColor3 = Color3.fromRGB(255, 0, 0)
+infinite.Position = UDim2.new(0.828717589, 0, 0.0292897299, 0)
+infinite.Size = UDim2.new(0, 78, 0, 41)
+infinite.Font = Enum.Font.Arial
+infinite.Text = "INFINITEYIELD"
+infinite.TextColor3 = Color3.fromRGB(255, 0, 0)
+infinite.TextSize = 10.000
+
+gym.Name = "gym"
+gym.Parent = scriptframe
+gym.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gym.BorderColor3 = Color3.fromRGB(255, 0, 0)
+gym.Position = UDim2.new(0.828717589, 0, 0.678225815, 0)
+gym.Size = UDim2.new(0, 78, 0, 41)
+gym.Font = Enum.Font.Arial
+gym.Text = "GYM TYCOON"
+gym.TextColor3 = Color3.fromRGB(255, 0, 0)
+gym.TextSize = 10.000
+
+ROYAL.Name = "ROYAL"
+ROYAL.Parent = scriptframe
+ROYAL.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ROYAL.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ROYAL.Position = UDim2.new(0.282351613, 0, 0.88035351, 0)
+ROYAL.Size = UDim2.new(0, 78, 0, 41)
+ROYAL.Font = Enum.Font.Arial
+ROYAL.Text = "ROYAL HIGH"
+ROYAL.TextColor3 = Color3.fromRGB(255, 0, 0)
+ROYAL.TextSize = 10.000
+
+zombier.Name = "zombier"
+zombier.Parent = scriptframe
+zombier.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+zombier.BorderColor3 = Color3.fromRGB(255, 0, 0)
+zombier.Position = UDim2.new(0.0191937089, 0, 0.88035351, 0)
+zombier.Size = UDim2.new(0, 78, 0, 41)
+zombier.Font = Enum.Font.Arial
+zombier.Text = "ZOMBIERUSH"
+zombier.TextColor3 = Color3.fromRGB(255, 0, 0)
+zombier.TextSize = 10.000
+
+creditsframe.Name = "creditsframe"
+creditsframe.Parent = Frame
+creditsframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditsframe.BackgroundTransparency = 1.000
+creditsframe.Position = UDim2.new(0.225378782, 0, 0.120567419, 0)
+creditsframe.Size = UDim2.new(0, 409, 0, 282)
+creditsframe.Visible = false
+
+topkek.Name = "topkek"
+topkek.Parent = creditsframe
+topkek.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+topkek.BorderColor3 = Color3.fromRGB(255, 0, 0)
+topkek.Position = UDim2.new(0.0515068807, 0, 0.0503802486, 0)
+topkek.Size = UDim2.new(0, 117, 0, 45)
+topkek.Font = Enum.Font.Arial
+topkek.Text = "TOPKEK HUB"
+topkek.TextColor3 = Color3.fromRGB(255, 0, 0)
+topkek.TextSize = 15.000
+topkek.TextWrapped = true
+
+gabx.Name = "gabx"
+gabx.Parent = creditsframe
+gabx.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gabx.BorderColor3 = Color3.fromRGB(255, 0, 0)
+gabx.Position = UDim2.new(0.0466169044, 0, 0.55344516, 0)
+gabx.Size = UDim2.new(0, 117, 0, 44)
+gabx.Font = Enum.Font.Arial
+gabx.Text = "GABX HUB"
+gabx.TextColor3 = Color3.fromRGB(255, 0, 0)
+gabx.TextSize = 15.000
+gabx.TextWrapped = true
+
+bozo.Name = "bozo"
+bozo.Parent = creditsframe
+bozo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bozo.BorderColor3 = Color3.fromRGB(255, 0, 0)
+bozo.Position = UDim2.new(0.38644433, 0, 0.0458188988, 0)
+bozo.Size = UDim2.new(0, 124, 0, 45)
+bozo.Font = Enum.Font.Arial
+bozo.Text = "BOZO HUB"
+bozo.TextColor3 = Color3.fromRGB(255, 0, 0)
+bozo.TextSize = 15.000
+bozo.TextWrapped = true
+
+test1.Name = "test1"
+test1.Parent = creditsframe
+test1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+test1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+test1.Position = UDim2.new(0.729536533, 0, 0.0503802486, 0)
+test1.Size = UDim2.new(0, 121, 0, 44)
+test1.Font = Enum.Font.Arial
+test1.Text = "MOON HUB"
+test1.TextColor3 = Color3.fromRGB(255, 0, 0)
+test1.TextSize = 15.000
+test1.TextWrapped = true
+
+citrus.Name = "citrus"
+citrus.Parent = creditsframe
+citrus.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+citrus.BorderColor3 = Color3.fromRGB(255, 0, 0)
+citrus.Position = UDim2.new(0.0490124226, 0, 0.331016481, 0)
+citrus.Size = UDim2.new(0, 117, 0, 39)
+citrus.Font = Enum.Font.Arial
+citrus.Text = "CITRUSS HUB"
+citrus.TextColor3 = Color3.fromRGB(255, 0, 0)
+citrus.TextSize = 15.000
+citrus.TextWrapped = true
+
+domain.Name = "domain"
+domain.Parent = creditsframe
+domain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+domain.BorderColor3 = Color3.fromRGB(255, 0, 0)
+domain.Position = UDim2.new(0.38644433, 0, 0.332112968, 0)
+domain.Size = UDim2.new(0, 124, 0, 44)
+domain.Font = Enum.Font.Arial
+domain.Text = "DOMAIN HUB"
+domain.TextColor3 = Color3.fromRGB(255, 0, 0)
+domain.TextSize = 15.000
+domain.TextWrapped = true
+
+ez.Name = "ez"
+ez.Parent = creditsframe
+ez.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ez.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ez.Position = UDim2.new(0.729536533, 0, 0.33093673, 0)
+ez.Size = UDim2.new(0, 121, 0, 39)
+ez.Font = Enum.Font.Arial
+ez.Text = "EZ HUB"
+ez.TextColor3 = Color3.fromRGB(255, 0, 0)
+ez.TextSize = 15.000
+ez.TextWrapped = true
+
+lucky.Name = "lucky"
+lucky.Parent = creditsframe
+lucky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lucky.BorderColor3 = Color3.fromRGB(255, 0, 0)
+lucky.Position = UDim2.new(0.386790693, 0, 0.553665936, 0)
+lucky.Size = UDim2.new(0, 122, 0, 44)
+lucky.Font = Enum.Font.Arial
+lucky.Text = "LUCKY HUB"
+lucky.TextColor3 = Color3.fromRGB(255, 0, 0)
+lucky.TextSize = 15.000
+lucky.TextWrapped = true
+
+sight.Name = "sight"
+sight.Parent = creditsframe
+sight.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sight.BorderColor3 = Color3.fromRGB(255, 0, 0)
+sight.Position = UDim2.new(0.051313255, 0, 0.80358386, 0)
+sight.Size = UDim2.new(0, 118, 0, 45)
+sight.Font = Enum.Font.Arial
+sight.Text = "SIGHT HUB"
+sight.TextColor3 = Color3.fromRGB(255, 0, 0)
+sight.TextSize = 15.000
+sight.TextWrapped = true
+
+garfield.Name = "garfield"
+garfield.Parent = creditsframe
+garfield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+garfield.BorderColor3 = Color3.fromRGB(255, 0, 0)
+garfield.Position = UDim2.new(0.38644433, 0, 0.80358386, 0)
+garfield.Size = UDim2.new(0, 124, 0, 45)
+garfield.Font = Enum.Font.Arial
+garfield.Text = "UTG HUB"
+garfield.TextColor3 = Color3.fromRGB(255, 0, 0)
+garfield.TextSize = 15.000
+garfield.TextWrapped = true
+
+psy.Name = "psy"
+psy.Parent = creditsframe
+psy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+psy.BorderColor3 = Color3.fromRGB(255, 0, 0)
+psy.Position = UDim2.new(0.729536533, 0, 0.550380409, 0)
+psy.Size = UDim2.new(0, 121, 0, 45)
+psy.Font = Enum.Font.Arial
+psy.Text = "PSY HUB"
+psy.TextColor3 = Color3.fromRGB(255, 0, 0)
+psy.TextSize = 15.000
+psy.TextWrapped = true
+
+TextLabel_3.Parent = creditsframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.335891068, 0, -0.149945989, 0)
+TextLabel_3.Size = UDim2.new(0, 156, 0, 32)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "HUBS"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+settingframe.Name = "settingframe"
+settingframe.Parent = Frame
+settingframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settingframe.BackgroundTransparency = 1.000
+settingframe.Position = UDim2.new(0.230603427, 0, 0.120567419, 0)
+settingframe.Size = UDim2.new(0, 406, 0, 281)
+settingframe.Visible = false
+
+TextLabel_4.Parent = settingframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0901968777, 0, 0.271811485, 0)
+TextLabel_4.Size = UDim2.new(0, 338, 0, 98)
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "COMING SOON.."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 17.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = settingframe
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.315879494, 0, -0.149945989, 0)
+TextLabel_5.Size = UDim2.new(0, 156, 0, 32)
+TextLabel_5.Font = Enum.Font.SciFi
+TextLabel_5.Text = "FE SCRIPTS"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+close.Name = "close"
+close.Parent = Frame
+close.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+close.Position = UDim2.new(0.937173545, 0, 0, 0)
+close.Size = UDim2.new(0, 33, 0, 32)
+close.Style = Enum.ButtonStyle.RobloxButtonDefault
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextSize = 14.000
+
+topbar.Name = "topbar"
+topbar.Parent = Frame
+topbar.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+topbar.BackgroundTransparency = 1.000
+topbar.Size = UDim2.new(0, 500, 0, 34)
+
+homeframe.Name = "homeframe"
+homeframe.Parent = Frame
+homeframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homeframe.BackgroundTransparency = 1.000
+homeframe.Position = UDim2.new(0.232954532, 0, 0.117283948, 0)
+homeframe.Size = UDim2.new(0, 432, 0, 302)
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = homeframe
+PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage.BackgroundTransparency = 1.000
+PlayerImage.Position = UDim2.new(0.233796284, 0, 0.0629139096, 0)
+PlayerImage.Size = UDim2.new(0, 215, 0, 92)
+PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = homeframe
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.BackgroundTransparency = 1.000
+PlayerName.Position = UDim2.new(0.233796284, 0, 0.49006626, 0)
+PlayerName.Size = UDim2.new(0, 200, 0, 50)
+PlayerName.Font = Enum.Font.Cartoon
+PlayerName.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayerName.TextScaled = true
+PlayerName.TextSize = 14.000
+PlayerName.TextWrapped = true
+
+TextLabel_6.Parent = homeframe
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.11805556, 0, 0.367549688, 0)
+TextLabel_6.Size = UDim2.new(0, 314, 0, 56)
+TextLabel_6.Font = Enum.Font.SciFi
+TextLabel_6.Text = "WELCOME TO KZS HUB!"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = homeframe
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0532407425, 0, 0.655629158, 0)
+TextLabel_7.Size = UDim2.new(0, 369, 0, 56)
+TextLabel_7.Font = Enum.Font.SciFi
+TextLabel_7.Text = "KZS HUB V1.3 |made by KaiZenYT#8422"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_7.TextSize = 19.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = homeframe
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0532407388, 0, 0.735099375, 0)
+TextLabel_8.Size = UDim2.new(0, 369, 0, 56)
+TextLabel_8.Font = Enum.Font.SciFi
+TextLabel_8.Text = "all the script is not mine credits to respective owner!"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_8.TextSize = 15.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = homeframe
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.317270666, 0, -0.123455927, 0)
+TextLabel_9.Size = UDim2.new(0, 156, 0, 32)
+TextLabel_9.Font = Enum.Font.SciFi
+TextLabel_9.Text = "HOME"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+-- Scripts:
+
+local function BYXN_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	local frame = script.Parent.Parent.Frame  --- Frame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(BYXN_fake_script)()
+local function EGNNFX_fake_script() -- scriptbutton.LocalScript 
+	local script = Instance.new('LocalScript', scriptbutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.scriptframe.Visible = true
+		script.Parent.Parent.Parent.creditsframe.Visible = false
+		script.Parent.Parent.Parent.settingframe.Visible = false
+		script.Parent.Parent.Parent.homeframe.Visible = false
+	end)
+end
+coroutine.wrap(EGNNFX_fake_script)()
+local function HUHVKUU_fake_script() -- creditsbutton.LocalScript 
+	local script = Instance.new('LocalScript', creditsbutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.scriptframe.Visible = false
+		script.Parent.Parent.Parent.creditsframe.Visible = true
+		script.Parent.Parent.Parent.settingframe.Visible = false
+	end)
+end
+coroutine.wrap(HUHVKUU_fake_script)()
+local function IYZOFUH_fake_script() -- settingbutton.LocalScript 
+	local script = Instance.new('LocalScript', settingbutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.scriptframe.Visible = false
+		script.Parent.Parent.Parent.creditsframe.Visible = false
+		script.Parent.Parent.Parent.settingframe.Visible = true
+		script.Parent.Parent.Parent.homeframe.Visible = false
+	end)
+end
+coroutine.wrap(IYZOFUH_fake_script)()
+local function FUTDDPE_fake_script() -- homebutton.LocalScript 
+	local script = Instance.new('LocalScript', homebutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.scriptframe.Visible = false
+		script.Parent.Parent.Parent.creditsframe.Visible = false
+		script.Parent.Parent.Parent.settingframe.Visible = false
+		script.Parent.Parent.Parent.homeframe.Visible = true
+	end)
+end
+coroutine.wrap(FUTDDPE_fake_script)()
+local function QBLYP_fake_script() -- bloxfruit.LocalScript 
+	local script = Instance.new('LocalScript', bloxfruit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/hjQ85mxY"))()
+	end)
+end
+coroutine.wrap(QBLYP_fake_script)()
+local function ZYOCQP_fake_script() -- kinglegacy.LocalScript 
+	local script = Instance.new('LocalScript', kinglegacy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/noobhub1/kinglegacy/main/script'))()
+	end)
+end
+coroutine.wrap(ZYOCQP_fake_script)()
+local function XJDLWGR_fake_script() -- petsimx.LocalScript 
+	local script = Instance.new('LocalScript', petsimx)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+	end)
+end
+coroutine.wrap(XJDLWGR_fake_script)()
+local function SGGF_fake_script() -- truepiece.LocalScript 
+	local script = Instance.new('LocalScript', truepiece)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+	end)
+end
+coroutine.wrap(SGGF_fake_script)()
+local function HWQYSRE_fake_script() -- buildaboat.LocalScript 
+	local script = Instance.new('LocalScript', buildaboat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+	end)
+end
+coroutine.wrap(HWQYSRE_fake_script)()
+local function ZEIPNDH_fake_script() -- fetroll.LocalScript 
+	local script = Instance.new('LocalScript', fetroll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ghostbin.com/TezpR/raw"))();
+	end)
+end
+coroutine.wrap(ZEIPNDH_fake_script)()
+local function DCXNOJI_fake_script() -- kat.LocalScript 
+	local script = Instance.new('LocalScript', kat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/slimethefemboy/scripts/main/kat%20autofarm", true))()
+	
+	
+		wait(2)
+	
+	
+		loadstring(game:HttpGet("https://pastebin.com/raw/5rukLQcj", true))()
+	end)
+end
+coroutine.wrap(DCXNOJI_fake_script)()
+local function JWAF_fake_script() -- adoptme.LocalScript 
+	local script = Instance.new('LocalScript', adoptme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/ADOPT-ME-/main/SCRIPT",true))();
+	end)
+end
+coroutine.wrap(JWAF_fake_script)()
+local function FLCFU_fake_script() -- arsenal.LocalScript 
+	local script = Instance.new('LocalScript', arsenal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/wwEtrhNj", true))()
+	end)
+end
+coroutine.wrap(FLCFU_fake_script)()
+local function XOBYG_fake_script() -- brookhaven.LocalScript 
+	local script = Instance.new('LocalScript', brookhaven)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+	end)
+end
+coroutine.wrap(XOBYG_fake_script)()
+local function KKMNK_fake_script() -- prisonlife.LocalScript 
+	local script = Instance.new('LocalScript', prisonlife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+	end)
+end
+coroutine.wrap(KKMNK_fake_script)()
+local function PDIGW_fake_script() -- jailbreak.LocalScript 
+	local script = Instance.new('LocalScript', jailbreak)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://3762448307")[1].Source)()
+	end)
+end
+coroutine.wrap(PDIGW_fake_script)()
+local function OFELX_fake_script() -- animefighter.LocalScript 
+	local script = Instance.new('LocalScript', animefighter)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+	end)
+end
+coroutine.wrap(OFELX_fake_script)()
+local function DYMCYV_fake_script() -- ninjalegends.LocalScript 
+	local script = Instance.new('LocalScript', ninjalegends)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2UjrXwTV")))
+	end)
+end
+coroutine.wrap(DYMCYV_fake_script)()
+local function THHQP_fake_script() -- infinite.LocalScript 
+	local script = Instance.new('LocalScript', infinite)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(THHQP_fake_script)()
+local function BELCSFQ_fake_script() -- gym.LocalScript 
+	local script = Instance.new('LocalScript', gym)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/Gym-Tycoon-/main/README.md",true))();
+	end)
+end
+coroutine.wrap(BELCSFQ_fake_script)()
+local function XHLOBNL_fake_script() -- ROYAL.LocalScript 
+	local script = Instance.new('LocalScript', ROYAL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/ROYAL-HIGH/main/SCRIPT.md",true))();
+	end)
+end
+coroutine.wrap(XHLOBNL_fake_script)()
+local function AKSWGBD_fake_script() -- zombier.LocalScript 
+	local script = Instance.new('LocalScript', zombier)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/jJ4VMxwC", true))()
+	end)
+end
+coroutine.wrap(AKSWGBD_fake_script)()
+local function IBOKT_fake_script() -- topkek.LocalScript 
+	local script = Instance.new('LocalScript', topkek)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1xAa54sG"))();
+	end)
+end
+coroutine.wrap(IBOKT_fake_script)()
+local function FZTS_fake_script() -- gabx.LocalScript 
+	local script = Instance.new('LocalScript', gabx)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ghostbin.com/2L3H3/raw", true))()
+	end)
+end
+coroutine.wrap(FZTS_fake_script)()
+local function VCMVON_fake_script() -- bozo.LocalScript 
+	local script = Instance.new('LocalScript', bozo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/ADOPT-ME-/main/SCRIPT",true))();
+	end)
+end
+coroutine.wrap(VCMVON_fake_script)()
+local function FSCS_fake_script() -- test1.LocalScript 
+	local script = Instance.new('LocalScript', test1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/LwQkm563"))();
+	end)
+end
+coroutine.wrap(FSCS_fake_script)()
+local function UCJTYS_fake_script() -- citrus.LocalScript 
+	local script = Instance.new('LocalScript', citrus)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ghostbin.com/xh8dc/raw"))();
+	end)
+end
+coroutine.wrap(UCJTYS_fake_script)()
+local function MXOBF_fake_script() -- domain.LocalScript 
+	local script = Instance.new('LocalScript', domain)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
+	end)
+end
+coroutine.wrap(MXOBF_fake_script)()
+local function NFXXO_fake_script() -- ez.LocalScript 
+	local script = Instance.new('LocalScript', ez)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+	end)
+end
+coroutine.wrap(NFXXO_fake_script)()
+local function LGNRVW_fake_script() -- lucky.LocalScript 
+	local script = Instance.new('LocalScript', lucky)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ghostbin.com/9be0x/raw", true))()
+	end)
+end
+coroutine.wrap(LGNRVW_fake_script)()
+local function TQSH_fake_script() -- sight.LocalScript 
+	local script = Instance.new('LocalScript', sight)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ghostbin.com/OcNBJ/raw"))();
+	end)
+end
+coroutine.wrap(TQSH_fake_script)()
+local function XWWD_fake_script() -- garfield.LocalScript 
+	local script = Instance.new('LocalScript', garfield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://ghostbin.com/RhCKw/raw")()
+	end)
+end
+coroutine.wrap(XWWD_fake_script)()
+local function BFHBR_fake_script() -- psy.LocalScript 
+	local script = Instance.new('LocalScript', psy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ghostbin.com/yuxVp/raw", true))()
+	end)
+end
+coroutine.wrap(BFHBR_fake_script)()
+local function QQBCUY_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(QQBCUY_fake_script)()
+local function PEJM_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(PEJM_fake_script)()
+local function WZNWV_fake_script() -- homeframe.LocalScript 
+	local script = Instance.new('LocalScript', homeframe)
+
+	local frame = script.Parent
+	
+	local player = game.Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumType = Enum.ThumbnailType.HeadShot
+	local thumSize = Enum.ThumbnailSize.Size420x420
+	local content = game.Players:GetUserThumbnailAsync(userId, thumType,thumSize)
+	
+	frame.PlayerImage.Image = content
+	frame.PlayerName.Text = player.Name
+end
+coroutine.wrap(WZNWV_fake_script)()
+local function RBZYNEW_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	wait(3)
+	
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "JOIN DISCORD";
+		Text = "https://discord.gg/NF37dk4Q";
+		Duration = "100";
+		Button1 = "join";
+		Button2 = "nevermind";
+	})
+end
+coroutine.wrap(RBZYNEW_fake_script)()
